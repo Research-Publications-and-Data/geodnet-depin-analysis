@@ -14,6 +14,13 @@ These SQL queries run on Dune Analytics against Solana blockchain data (DuneSQL 
 - **Description:** Burn signer address concentration (Top-N share, cumulative %)
 - **Key finding:** Top-5 = 40.4%, HHI = 0.055
 
+## helium_s2r_trajectory.sql
+- **Dune Query ID:** 6918150
+- **URL:** https://dune.com/queries/6918150
+- **Description:** Monthly Helium Subsidy-to-Revenue (S2R) ratio trajectory
+- **Data sources:** Helium Foundation transformation views (HNT emissions, DC burns, oracle prices)
+- **Key finding:** S2R declined from ~0.98 (Jan 2025) to ~0.36 (Feb 2026), showing growing data revenue
+
 ## Reproducibility
 
 1. Create a free Dune Analytics account at dune.com

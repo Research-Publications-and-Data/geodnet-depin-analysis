@@ -26,15 +26,17 @@ Burn signer concentration from Dune query [6917162](https://dune.com/queries/691
 ## Helium
 
 ### s2r_trajectory.csv
-Helium Subsidy-to-Revenue ratio trajectory.
+Helium Subsidy-to-Revenue ratio trajectory from Dune query [6918150](https://dune.com/queries/6918150).
+
+Token rewards = HNT emissions (rewards escrow + delegation rewards) valued at monthly average oracle price. Data revenue = HNT burned for Data Credits, valued at oracle price.
 
 | Column | Type | Description |
 |--------|------|-------------|
 | month | date | Calendar month |
-| token_rewards_usd | numeric | Monthly token rewards (USD) |
-| data_revenue_usd | numeric | Monthly data transfer revenue (USD) |
+| token_rewards_usd | numeric | Monthly HNT reward emissions (USD) |
+| data_revenue_usd | numeric | Monthly HNT burned for Data Credits (USD) |
 | s2r_ratio | numeric | token_rewards / (token_rewards + data_revenue) |
 
 ## Data Provenance
 
-All GEODNET data was collected via Dune Analytics on Solana blockchain data (GEOD token mint: `7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu`). Helium data was collected from DefiLlama and public Helium blockchain APIs. Collection date: March 2026. Specific query IDs are linked above for reproducibility.
+All GEODNET data was collected via Dune Analytics on Solana blockchain data (GEOD token mint: `7JA5eZdCzztSfQbJvS8aVVxMFfd81Rs9VvwnocV1mKHu`). Helium data was collected via Dune Analytics using Helium Foundation transformation views on Solana. Collection date: March 2026. Specific query IDs are linked above for reproducibility.

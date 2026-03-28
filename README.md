@@ -38,7 +38,7 @@ Decentralized Physical Infrastructure Networks (DePIN) that provide geographic c
 ## Data Sources
 
 - **GEODNET burn data:** Dune Analytics queries [6917159](https://dune.com/queries/6917159) (monthly burns) and [6917162](https://dune.com/queries/6917162) (burn signer concentration) on Solana
-- **Helium data:** DefiLlama, Helium Explorer, public blockchain data
+- **Helium S2R data:** Dune Analytics query [6918150](https://dune.com/queries/6918150) (S2R trajectory) using Helium Foundation transformation views on Solana
 - **Governance data:** Polygon DAO voting records
 
 ## Companion Papers
