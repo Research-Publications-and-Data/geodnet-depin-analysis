@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+title: "GeoDePIN: Design Patterns for Decentralized Geographic Infrastructure"
+message: "If you use this data or analysis, please cite the paper."
+type: dataset
+authors:
+  - given-names: Zach
+    family-names: Zukowski
+    orcid: "https://orcid.org/0009-0006-3642-2450"
+    email: zach@tokenization.systems
+    affiliation: "Tokenization Systems"
+repository-code: "https://github.com/Research-Publications-and-Data/geodnet-depin-analysis"
+license: MIT
+date-released: "2026-03-28"
+keywords:
+  - decentralized physical infrastructure
+  - DePIN
+  - geographic coverage
+  - token incentives
+  - burn-mint equilibrium
+  - Helium
+  - GEODNET
+  - governance concentration
+identifiers:
+  - type: other
+    value: "SSRN per_id 10386216"
+    description: "SSRN Author Page"
+references:
+  - type: article
+    title: "Adaptive Tokenomics: A Framework for Token-Mediated Resource Allocation in Decentralized Infrastructure Networks"
+    authors:
+      - given-names: Zach
+        family-names: Zukowski
+    doi: "10.2139/ssrn.6364158"
+  - type: article
+    title: "Operational Risk in Token Economies"
+    authors:
+      - given-names: Zach
+        family-names: Zukowski
+    doi: "10.2139/ssrn.6352118"
+preferred-citation:
+  type: article
+  title: "GeoDePIN: Design Patterns for Decentralized Geographic Infrastructure"
+  authors:
+    - given-names: Zach
+      family-names: Zukowski
+  year: 2026
